@@ -4,8 +4,22 @@
 
 #include <stdio.h>
 
+
 int main() {
-  printf("svhfgfgfn");
-  return 0;
+  int x, y, sum=0;
+  float avg=0;
+  printf("Enter the mark of the first subject:");
+
+  scanf("%d", &x);
+
+printf("Enter the mark of the second subject:");
+  scanf("%d", &y);
+
+sum=x+y;
+avg= sum/2.0;
+
+printf("The average is:%.2f",avg);
+
+return 0;
 }
 
