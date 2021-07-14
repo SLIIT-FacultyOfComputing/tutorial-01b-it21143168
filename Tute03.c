@@ -12,7 +12,17 @@ n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
+
+int i;
+int sum;
 int main() {
+
+printf("Enter your number:");
+scanf("%d", &i);
+
+int sum = i/2*(2*1+(i-1)*1);
+
+printf("Your total addition is:%d",sum);
   
   return 0;
 }
